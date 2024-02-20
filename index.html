@@ -14,14 +14,27 @@
       <input type="text" id="lname" name="lname" required placeholder="Last Name" />
 
       <h2>Select a Race</h2>
-      <label for="5k">Fun Run 5K</label>
-      <input type="radio" id="5k" name="5K" />
+      <div>
+        <label for="5k">Fun Run 5K</label>
+        <input type="radio" id="5k" name="Race" />
+      </div>
 
-      <label for="10K">Full 10K</label>
-      <input type="radio" id="10K" name="10K" />
+      <div>
+        <label for="10K">Full 10K</label>
+        <input type="radio" id="10K" name="Race" />
+      </div>
 
-      <label for="Marathon">Marathon</label>
-      <input type="radio" id="Marathon" name="Marathon" />
+      <div>
+        <label for="Marathon">Marathon</label>
+        <input type="radio" id="Marathon" name="Race" />
+      </div>
+
+      <h2>Please Fill out both fields</h2>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
     </form>
   </body>
 </html>
